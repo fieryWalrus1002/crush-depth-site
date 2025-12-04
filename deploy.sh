@@ -5,17 +5,22 @@ echo "💣 STARTING DEPLOYMENT..."
 # 1. Remove the Development Shortcut
 rm content
 
-# 2. Copy the REAL files in
-echo "Copying files from workspace..."
-cp -r ../crush-depth content
+# 2. Create a real folder
+mkdir content
 
-# 3. Send to GitHub
+# 3. Copy the REAL files in
+echo "Copying files from workspace..."
+cp -r ../crush-depth/content/* content/
+
+# 4. Send to GitHub
 echo "Sending to GitHub..."
 npx quartz sync --no-pull
 
-# 4. Clean up and Restore Shortcut
+# 5. Clean up and Restore Shortcut
 echo "Cleaning up..."
 rm -rf content
-ln -s ../crush-depth content
+
+# Point the shortcut directly to the inner content folder
+ln -s ../crush-depth/content content
 
 echo "DONE! Site updated."
