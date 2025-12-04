@@ -8,6 +8,8 @@ tags: [crew, npc]
 > [!quote]
 > "There's always spiders in the world. You can't get away from them... And my mum said, Well, no, not there [at sea]." 
 
+![[portrait/dr-colette.png]]
+
 ### Dossier
 
 | **Role** | **Status** | **Location** |
