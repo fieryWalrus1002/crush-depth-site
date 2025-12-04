@@ -1,12 +1,12 @@
 ---
-title: Allister
+title: Alaster Pomeroy, Engineer
 tags: [crew, pc]
 ---
 
 # Allister
 
 > [!quote]
-> "Steady... steady... holding at 20 meters."
+> "My father was a Navy man, his father was a Navy man and I am a Navy man.  My family may have opened the door, but I will be the first to travel the depths."
 
 ![[../portrait/Allister.png]]
 
