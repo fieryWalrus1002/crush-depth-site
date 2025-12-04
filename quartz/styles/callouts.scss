@@ -185,3 +185,10 @@
     font-weight: $semiBoldWeight;
   }
 }
+
+.callout[data-callout="statblock"] {
+  --color: #d4d4d4;
+  --border: #4a4a4a;
+  --bg: #1a1a1a; /* Dark industrial grey */
+  font-family: "Courier New", monospace; /* Typewriter look */
+}
